@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NovaMono',sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.containeer{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff69b4 ;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height:80px;
+    z-index: 111;
+    background-color: #00ffff;
+    line-height: 70px;
+    font-size: 19px;
+    
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+    font-weight: 800; 
+    color:navy;
+    letter-spacing: 2px;
+    cursor: pointer; 
+    font-family: "DESIGNER"; 
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 24px;
+}
+
+.navItems li a{
+    font-size: 21px;
+    color:navy;
+    text-decoration: none;
+    text-transform:capitalize ;   
+}
+
+.links a{
+    font-size: 21px;
+    color:navy;
+    margin: 25px 20px;
+}
+
+a{
+    position: relative;
+    background:yellow;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+}
+
+.navItems li a:hover {
+    letter-spacing: 0.12em;
+    background :var(--clr);
+    box-shadow: 0 0 10px grey ; 
+    position:inherit;
+}
+
+.links a:hover{   
+    background :var(--clr);
+    box-shadow: 0 0 10px grey ;
+}
+
+.wrapper{
+    display: flex;
+    width:100%;
+    height:100%;
+    justify-content: left;
+    align-items: left;
+    padding:15% 8%;
+    overflow : hidden;
+}
+
+.cols{
+    width:50%;
+}
+
+.topline{
+    font-family: "Arial";
+    position: releative;
+    font-size: 47px;
+    letter-spacing:1.333px;
+    color:#ccffcc;
+    font-family:"DESIGNER";
+    
+
+}
+
+.topline::after{
+    position:relative;
+    content:'';
+    height:3px;
+    width:68px;
+    bottom:10px;
+    background-color: cyan;
+}
+
+h1{
+    position: relative;
+    display:block;
+    font-size: 4em;
+    font-weight: 900;
+    color:black;
+    letter-spacing: 1.25px;
+    font-family: "DESIGNER";
+}
+
+span.auto-type{
+    color:rgb(6, 235, 252);
+    letter-spacing:3px;
+    padding:0 0px 0 0;
+    font-family: "exima_geometric";
+    
+    
+}
+
+p{
+    display: block;
+    width:80%;
+    font-size:20px ;
+    font-family: sans-serif;
+    color:#ccffcc;
+}
+
+p1{
+    font-size: 20px;
+    padding:0 25% 0 32%;
+    font-family: sans-serif;
+    color:#ccffcc;
+}
+p2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding:0 35% 0 33.5%;
+    color:#ccffcc;
+}
+
+.profession-containeer{
+    position: absolute;
+    top:25%;
+    right:6.5%;
+    padding-bottom: 100px;
+    width: 490px;
+    height: 450px;
+    background: cyan;
+    overflow: hidden;
+    pointer-events: none;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow:0 3px 40px black; 
+}
+
+.home-img img{
+
+    position:relative;
+    right:0;
+    left:0;
+    pointer-events: none;
+    width:500px;
+
+}
+.about-img img{
+    position:relative;
+    right:0;
+    left:0;
+    pointer-events: none;
+    width:500px;
+
+}
