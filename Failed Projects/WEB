@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav Prajapti - ETHEREALxWHF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="whf.css"> 
+</head>
+<body>
+    <div class="containeer">
+        <nav>
+            <div class="logo">ETHxWHF<b>.</b></div>
+            <ul class="navItems">
+                <li><a href ="#" style="--clr:whitesmoke"><span>Home</a></span></a></li>
+                <li><a href="#" style="--clr:whitesmoke"><span>About</span></a></li>
+                <li><a href="#" style="--clr:whitesmoke"><span>Services</span></a></li>
+                <li><a href="#" style="--clr:whitesmoke"><span>Blogs</span></a></li>
+                <li><a href="#" style="--clr:whitesmoke"><span>Contact</span></a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    <div class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Namaste</span>
+            <h1>I'm <span class="auto-type"></span></h1>
+            <p>Jay Shree Krishna - The mind is everything.</p>
+            <p1>What you think,</p1>
+            <p2> you become!</p2>
+    </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-type', {
+            strings: ['WHFxEtheral', 'BooZ ManN'],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+          });
+    </script>
+    <section class="home" id="home">
+    <div class="profession-containeer">
+        <div class="home-img">
+            <img src="https://o.remove.bg/downloads/cda4d367-d7ff-4ed3-a695-e91b20dcaef0/dami-removebg-preview.png" alt="saurav">
+        </div>
+        <div class="about-img">
+            <img src="dami1.png" alt="about me">
+        </div>
+    </div>
+    </section>
+    
+    
+
+</body>
+</html>
